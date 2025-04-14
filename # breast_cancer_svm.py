@@ -29,7 +29,7 @@ model.fit(X_train_scaled, y_train)
 # 5 Make predictions
 y_pred = model.predict(X_test_scaled)
 
-# 6 Evaluate the model
+# 6 Evaluate the mod
 print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
